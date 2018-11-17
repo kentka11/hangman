@@ -15,4 +15,15 @@ git commit -m "<コメント入力>"
 #コミットした変更を中央リポジトリにプッシュするコマンド
 git push origin master
 
+#中央リポジトリからローカルリポジトリを同期する
+git pull origin master
+
+#リポジトリの履歴を表示して、コミット番号を確認する
+git log
+
+#更新したファイルの差分を確認する
+git diff <ファイルパス>
+
+
+
 
